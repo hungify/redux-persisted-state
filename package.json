@@ -1,41 +1,29 @@
 {
-  "name": "vite-react-ts-starter",
+  "name": "redux-localstorage",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview",
-    "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
-    "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
-    "lint": "yarn lint:format && yarn lint:fix ",
-    "type-check": "tsc"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@types/svgo": "^2.6.2",
-    "@vitejs/plugin-react": "^1.2.0",
+    "antd": "^4.18.8",
+    "axios": "^0.26.0",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "node-uuid": "^1.4.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "vite-plugin-svgr": "^1.0.1"
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1"
   },
   "devDependencies": {
-    "@types/babel__core": "^7.1.18",
-    "@types/node": "^17.0.21",
-    "@types/prettier": "^2.4.4",
-    "@types/react": "^17.0.33",
-    "@types/react-dom": "^17.0.10",
-    "@typescript-eslint/eslint-plugin": "^5.11.0",
-    "@typescript-eslint/parser": "^5.11.0",
-    "eslint": "^8.9.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.28.0",
-    "prettier": "^2.5.1",
-    "typescript": "^4.5.4",
-    "vite": "^2.8.0",
-    "vite-tsconfig-paths": "^3.4.0"
-  },
-  "license": "MIT"
+    "@vitejs/plugin-react": "^1.0.7",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "vite": "^2.8.0"
+  }
 }

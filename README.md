@@ -1,2 +1,4 @@
-# vite-reactts-starter
-Vite + React + Typescript + Prettier + Eslint + Absolute import
+# Redux persisted state without Library
+
+- Store token in localStorage
+- Store todos in sessionStorage
